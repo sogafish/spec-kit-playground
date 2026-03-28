@@ -1,0 +1,104 @@
+{
+  "app": {
+    "title": "Othello Game",
+    "subtitle": "World-class Othello Experience"
+  },
+  "pages": {
+    "home": {
+      "title": "Home",
+      "welcome": "Welcome to Othello Game",
+      "description": "Enjoy the highest quality Othello game experience powered by React Router and AI.",
+      "startGame": "Start Game",
+      "viewStats": "View Statistics"
+    },
+    "gameMode": {
+      "title": "Game Mode Selection",
+      "selectMode": "Please select a game mode",
+      "aiMode": "AI Battle",
+      "aiDescription": "Play against computer",
+      "difficulty": {
+        "label": "Difficulty",
+        "beginner": "Beginner",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced",
+        "expert": "Expert"
+      },
+      "startGame": "Start Game"
+    },
+    "gameplay": {
+      "title": "Gameplay",
+      "currentPlayer": "Current Player",
+      "blackPieces": "Black Pieces",
+      "whitePieces": "White Pieces",
+      "aiThinking": "AI is thinking...",
+      "gameOver": "Game Over",
+      "winner": "Winner",
+      "draw": "Draw",
+      "newGame": "New Game",
+      "backToMenu": "Back to Menu"
+    },
+    "results": {
+      "title": "Results",
+      "congratulations": "Congratulations!",
+      "gameResult": "Game Result",
+      "finalScore": "Final Score",
+      "playAgain": "Play Again",
+      "backToMenu": "Back to Menu",
+      "viewStats": "View Statistics"
+    },
+    "stats": {
+      "title": "Statistics",
+      "gamesPlayed": "Games Played",
+      "wins": "Wins",
+      "losses": "Losses",
+      "draws": "Draws",
+      "winRate": "Win Rate",
+      "averageScore": "Average Score",
+      "bestScore": "Best Score",
+      "clearHistory": "Clear History"
+    },
+    "error": {
+      "title": "Error",
+      "pageNotFound": "Page Not Found",
+      "goHome": "Go Home",
+      "reload": "Reload Page"
+    }
+  },
+  "game": {
+    "rules": {
+      "title": "Othello Rules",
+      "description": "A two-player board game played on an 8×8 board."
+    },
+    "actions": {
+      "pass": "Pass",
+      "undo": "Undo",
+      "hint": "Show Hint",
+      "resign": "Resign"
+    },
+    "messages": {
+      "validMoves": "Valid moves: {{count}}",
+      "noValidMoves": "No valid moves available",
+      "mustPass": "Must pass",
+      "invalidMove": "Invalid move",
+      "gameStarted": "Game started",
+      "moveMade": "{{player}} placed at {{position}}"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "saving": "Saving...",
+    "saved": "Saved",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close",
+    "next": "Next",
+    "back": "Back",
+    "language": "Language",
+    "theme": "Theme",
+    "settings": "Settings"
+  }
+}
